@@ -1,13 +1,4 @@
-var sd = document.querySelector(".side-navbar")
 
-function showbar(event){
-    sd.style.left ="0"
-event.preventDefault()
-}
-function closebar(event){
-    sd.style.left="-60%"
-event.preventDefault()
-}
 // book.html
 var productcontainer = document.querySelector(".book-categories, .new-arrival");
 var search = document.getElementById("search");
